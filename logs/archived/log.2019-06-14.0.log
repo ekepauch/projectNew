@@ -1,0 +1,457 @@
+2019-06-14 08:12:08 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 08:12:08 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 08:12:08 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 08:12:11 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 08:12:12 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 08:12:12 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 08:12:15 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 219424 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 08:12:15 - No active profile set, falling back to default profiles: default
+2019-06-14 08:12:30 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 08:12:30 - Finished Spring Data repository scanning in 131ms. Found 1 repository interfaces.
+2019-06-14 08:12:33 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6addf5a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 08:12:34 - HikariPool-1 - Starting...
+2019-06-14 08:12:36 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 08:12:37 - HikariPool-1 - Start completed.
+2019-06-14 08:12:37 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 08:12:37 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 08:12:37 - HHH000206: hibernate.properties not found
+2019-06-14 08:12:39 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 08:12:39 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 08:12:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 08:12:47 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 08:12:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 08:12:53 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 08:12:53 - Started ProjectApplicationTests in 40.345 seconds (JVM running for 49.52)
+2019-06-14 08:12:54 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 08:12:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 08:12:55 - HikariPool-1 - Shutdown initiated...
+2019-06-14 08:12:55 - HikariPool-1 - Shutdown completed.
+2019-06-14 08:49:38 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 08:49:38 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 08:49:38 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 08:49:38 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 08:49:38 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 08:49:38 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 08:49:39 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 220608 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 08:49:39 - No active profile set, falling back to default profiles: default
+2019-06-14 08:49:42 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 08:49:42 - Finished Spring Data repository scanning in 133ms. Found 1 repository interfaces.
+2019-06-14 08:49:44 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cbfa934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 08:49:44 - HikariPool-1 - Starting...
+2019-06-14 08:49:45 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 08:49:46 - HikariPool-1 - Start completed.
+2019-06-14 08:49:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 08:49:46 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 08:49:46 - HHH000206: hibernate.properties not found
+2019-06-14 08:49:46 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 08:49:47 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 08:49:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 08:49:53 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 08:49:53 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 08:49:55 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 08:49:56 - Started ProjectApplicationTests in 17.289 seconds (JVM running for 19.545)
+2019-06-14 08:49:56 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 08:49:56 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 08:49:56 - HikariPool-1 - Shutdown initiated...
+2019-06-14 08:49:56 - HikariPool-1 - Shutdown completed.
+2019-06-14 09:01:33 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 09:01:33 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 09:01:33 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 09:01:34 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 09:01:34 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 09:01:34 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 09:01:35 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 223508 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 09:01:35 - No active profile set, falling back to default profiles: default
+2019-06-14 09:01:38 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 09:01:38 - Finished Spring Data repository scanning in 202ms. Found 1 repository interfaces.
+2019-06-14 09:01:39 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5361c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 09:01:40 - HikariPool-1 - Starting...
+2019-06-14 09:01:41 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 09:01:41 - HikariPool-1 - Start completed.
+2019-06-14 09:01:42 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 09:01:42 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 09:01:42 - HHH000206: hibernate.properties not found
+2019-06-14 09:01:42 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 09:01:43 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 09:01:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:01:48 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:01:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 09:01:53 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 09:01:53 - Started ProjectApplicationTests in 19.145 seconds (JVM running for 21.76)
+2019-06-14 09:01:54 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:01:54 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:01:54 - HikariPool-1 - Shutdown initiated...
+2019-06-14 09:01:54 - HikariPool-1 - Shutdown completed.
+2019-06-14 09:12:28 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 09:12:28 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 09:12:28 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 09:12:28 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 09:12:29 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 09:12:29 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 09:12:29 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 208448 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 09:12:29 - No active profile set, falling back to default profiles: default
+2019-06-14 09:12:32 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 09:12:33 - Finished Spring Data repository scanning in 136ms. Found 1 repository interfaces.
+2019-06-14 09:12:34 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$976638a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 09:12:34 - HikariPool-1 - Starting...
+2019-06-14 09:12:35 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 09:12:35 - HikariPool-1 - Start completed.
+2019-06-14 09:12:36 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 09:12:36 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 09:12:36 - HHH000206: hibernate.properties not found
+2019-06-14 09:12:37 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 09:12:37 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 09:12:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:12:41 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:12:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 09:12:44 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 09:12:45 - Started ProjectApplicationTests in 15.83 seconds (JVM running for 17.915)
+2019-06-14 09:12:46 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:12:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:12:46 - HikariPool-1 - Shutdown initiated...
+2019-06-14 09:12:46 - HikariPool-1 - Shutdown completed.
+2019-06-14 09:21:15 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 09:21:15 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 09:21:15 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 09:21:15 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 09:21:15 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 09:21:15 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 09:21:16 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 224864 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 09:21:16 - No active profile set, falling back to default profiles: default
+2019-06-14 09:21:20 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 09:21:20 - Finished Spring Data repository scanning in 128ms. Found 1 repository interfaces.
+2019-06-14 09:21:22 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$668ee755] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 09:21:22 - HikariPool-1 - Starting...
+2019-06-14 09:21:24 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 09:21:24 - HikariPool-1 - Start completed.
+2019-06-14 09:21:24 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 09:21:24 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 09:21:24 - HHH000206: hibernate.properties not found
+2019-06-14 09:21:25 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 09:21:25 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 09:21:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:21:31 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:21:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 09:21:34 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 09:21:34 - Started ProjectApplicationTests in 18.538 seconds (JVM running for 20.915)
+2019-06-14 09:21:34 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:21:34 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:21:34 - HikariPool-1 - Shutdown initiated...
+2019-06-14 09:21:34 - HikariPool-1 - Shutdown completed.
+2019-06-14 09:45:24 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 09:45:24 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 09:45:24 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 09:45:24 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 09:45:24 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 09:45:24 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 09:45:25 - HV000001: Hibernate Validator 6.0.14.Final
+2019-06-14 09:45:25 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 218212 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 09:45:25 - No active profile set, falling back to default profiles: default
+2019-06-14 09:45:28 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 09:45:28 - Finished Spring Data repository scanning in 169ms. Found 1 repository interfaces.
+2019-06-14 09:45:29 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5361c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 09:45:30 - HikariPool-1 - Starting...
+2019-06-14 09:45:32 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 09:45:32 - HikariPool-1 - Start completed.
+2019-06-14 09:45:32 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 09:45:32 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 09:45:32 - HHH000206: hibernate.properties not found
+2019-06-14 09:45:33 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 09:45:33 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 09:45:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:45:38 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:45:38 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 09:45:40 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 09:45:41 - Started ProjectApplicationTests in 16.14 seconds (JVM running for 18.439)
+2019-06-14 09:45:41 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 09:45:41 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 09:45:41 - HikariPool-1 - Shutdown initiated...
+2019-06-14 09:45:41 - HikariPool-1 - Shutdown completed.
+2019-06-14 10:00:06 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 10:00:06 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 10:00:06 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 10:00:06 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 10:00:06 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 10:00:06 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 10:00:07 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 215148 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 10:00:07 - No active profile set, falling back to default profiles: default
+2019-06-14 10:00:11 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 10:00:11 - Finished Spring Data repository scanning in 174ms. Found 1 repository interfaces.
+2019-06-14 10:00:12 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$976638a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 10:00:13 - HikariPool-1 - Starting...
+2019-06-14 10:00:14 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 10:00:14 - HikariPool-1 - Start completed.
+2019-06-14 10:00:15 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 10:00:15 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 10:00:15 - HHH000206: hibernate.properties not found
+2019-06-14 10:00:15 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 10:00:20 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 10:00:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 10:00:52 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 10:00:53 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 10:00:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 10:00:59 - Started ProjectApplicationTests in 52.434 seconds (JVM running for 54.238)
+2019-06-14 10:01:00 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 10:01:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 10:01:00 - HikariPool-1 - Shutdown initiated...
+2019-06-14 10:01:00 - HikariPool-1 - Shutdown completed.
+2019-06-14 11:03:14 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 11:03:14 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 11:03:14 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 11:03:15 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 11:03:15 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 11:03:16 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b62d79, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6631f5ca, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1613674b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@27ff5d15, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e096385, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@649bec2e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@693fe6c9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@34f5090e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@31e5415e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@a2431d0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1cbb87f3]
+2019-06-14 11:03:17 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 230816 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 11:03:17 - No active profile set, falling back to default profiles: default
+2019-06-14 11:03:20 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 11:03:21 - Finished Spring Data repository scanning in 164ms. Found 1 repository interfaces.
+2019-06-14 11:03:22 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c31d000] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 11:03:23 - HikariPool-1 - Starting...
+2019-06-14 11:03:25 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 11:03:25 - HikariPool-1 - Start completed.
+2019-06-14 11:03:25 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 11:03:26 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 11:03:26 - HHH000206: hibernate.properties not found
+2019-06-14 11:03:26 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 11:03:26 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 11:03:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 11:03:32 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 11:03:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 11:03:35 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 11:03:35 - Started ProjectApplicationTests in 19.247 seconds (JVM running for 22.509)
+2019-06-14 11:03:36 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 11:03:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 11:03:36 - HikariPool-1 - Shutdown initiated...
+2019-06-14 11:03:36 - HikariPool-1 - Shutdown completed.
+2019-06-14 11:05:18 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 11:05:18 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 11:05:18 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 11:05:18 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 11:05:19 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 11:05:19 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 11:05:20 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 221736 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 11:05:20 - No active profile set, falling back to default profiles: default
+2019-06-14 11:05:23 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 11:05:24 - Finished Spring Data repository scanning in 196ms. Found 1 repository interfaces.
+2019-06-14 11:05:25 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c5e39b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 11:05:26 - HikariPool-1 - Starting...
+2019-06-14 11:05:27 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 11:05:27 - HikariPool-1 - Start completed.
+2019-06-14 11:05:28 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 11:05:28 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 11:05:28 - HHH000206: hibernate.properties not found
+2019-06-14 11:05:28 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 11:05:29 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 11:05:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 11:05:35 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 11:05:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 11:05:38 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 11:05:39 - Started ProjectApplicationTests in 19.755 seconds (JVM running for 22.377)
+2019-06-14 11:05:39 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 11:05:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 11:05:39 - HikariPool-1 - Shutdown initiated...
+2019-06-14 11:05:39 - HikariPool-1 - Shutdown completed.
+2019-06-14 11:50:56 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 11:50:56 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 11:50:56 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 11:50:56 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 11:50:57 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 11:50:57 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693fe6c9]
+2019-06-14 11:50:58 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 231944 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 11:50:58 - No active profile set, falling back to default profiles: default
+2019-06-14 11:51:01 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 11:51:02 - Finished Spring Data repository scanning in 161ms. Found 1 repository interfaces.
+2019-06-14 11:51:03 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6cf0c6b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 11:51:04 - HikariPool-1 - Starting...
+2019-06-14 11:51:05 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 11:51:05 - HikariPool-1 - Start completed.
+2019-06-14 11:51:05 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 11:51:06 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 11:51:06 - HHH000206: hibernate.properties not found
+2019-06-14 11:51:06 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 11:51:07 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 11:51:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 11:51:14 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 11:51:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 11:51:17 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 11:51:17 - Started ProjectApplicationTests in 20.37 seconds (JVM running for 22.755)
+2019-06-14 11:51:18 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 11:51:18 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 11:51:18 - HikariPool-1 - Shutdown initiated...
+2019-06-14 11:51:18 - HikariPool-1 - Shutdown completed.
+2019-06-14 12:04:43 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 12:04:43 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 12:04:43 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 12:04:43 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 12:04:44 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 12:04:44 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@272ed83b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@41fecb8b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@120f102b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51dcb805, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66498326, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2accdbb5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b62d79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ace1ed4]
+2019-06-14 12:04:44 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 232956 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 12:04:44 - No active profile set, falling back to default profiles: default
+2019-06-14 12:04:47 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 12:04:48 - Finished Spring Data repository scanning in 145ms. Found 1 repository interfaces.
+2019-06-14 12:04:49 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4642f3bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 12:04:50 - HikariPool-1 - Starting...
+2019-06-14 12:04:52 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 12:04:52 - HikariPool-1 - Start completed.
+2019-06-14 12:04:52 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 12:04:52 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 12:04:52 - HHH000206: hibernate.properties not found
+2019-06-14 12:04:53 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 12:04:53 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 12:04:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 12:04:59 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 12:05:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 12:05:03 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 12:05:03 - Started ProjectApplicationTests in 19.591 seconds (JVM running for 22.232)
+2019-06-14 12:05:04 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 12:05:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 12:05:04 - HikariPool-1 - Shutdown initiated...
+2019-06-14 12:05:04 - HikariPool-1 - Shutdown completed.
+2019-06-14 12:24:48 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 234760 (C:\Users\UPPERLINK\Desktop\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 12:24:48 - No active profile set, falling back to default profiles: default
+2019-06-14 12:24:58 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 236068 (C:\Users\UPPERLINK\Desktop\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 12:24:58 - No active profile set, falling back to default profiles: default
+2019-06-14 12:25:00 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 12:25:01 - Finished Spring Data repository scanning in 401ms. Found 1 repository interfaces.
+2019-06-14 12:25:02 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b71b7d49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 12:25:04 - Tomcat initialized with port(s): 8092 (http)
+2019-06-14 12:25:05 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-06-14 12:25:05 - Starting service [Tomcat]
+2019-06-14 12:25:05 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-14 12:25:05 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-06-14 12:25:05 - Initializing Spring embedded WebApplicationContext
+2019-06-14 12:25:05 - Root WebApplicationContext: initialization completed in 6893 ms
+2019-06-14 12:25:06 - HikariPool-1 - Starting...
+2019-06-14 12:25:07 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 12:25:07 - HikariPool-1 - Start completed.
+2019-06-14 12:25:07 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 12:25:07 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 12:25:07 - HHH000206: hibernate.properties not found
+2019-06-14 12:25:07 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 12:25:08 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 12:25:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 12:25:10 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 12:25:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 12:25:10 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 12:25:11 - Starting ProtocolHandler ["http-nio-8092"]
+2019-06-14 12:25:11 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-06-14 12:25:11 - Started ProjectApplication in 13.272 seconds (JVM running for 15.375)
+2019-06-14 12:26:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-14 12:26:14 - Initializing Servlet 'dispatcherServlet'
+2019-06-14 12:26:14 - Completed initialization in 33 ms
+2019-06-14 12:26:14 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-14 12:27:12 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 12:27:12 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 12:27:12 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 12:27:13 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 12:27:13 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 12:27:13 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@272ed83b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@41fecb8b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@120f102b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51dcb805, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66498326, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2accdbb5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b62d79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ace1ed4]
+2019-06-14 12:27:14 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 234532 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 12:27:14 - No active profile set, falling back to default profiles: default
+2019-06-14 12:27:17 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 12:27:17 - Finished Spring Data repository scanning in 323ms. Found 1 repository interfaces.
+2019-06-14 12:27:19 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc1be8da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 12:27:19 - HikariPool-1 - Starting...
+2019-06-14 12:27:20 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 12:27:21 - HikariPool-1 - Start completed.
+2019-06-14 12:27:21 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 12:27:21 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 12:27:21 - HHH000206: hibernate.properties not found
+2019-06-14 12:27:21 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 12:27:22 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 12:27:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 12:27:27 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 12:27:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 12:27:30 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 12:27:30 - Started ProjectApplicationTests in 16.776 seconds (JVM running for 19.667)
+2019-06-14 12:27:31 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 12:27:31 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 12:27:31 - HikariPool-1 - Shutdown initiated...
+2019-06-14 12:27:31 - HikariPool-1 - Shutdown completed.
+2019-06-14 12:36:55 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 12:36:55 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 12:36:55 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 12:36:55 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 12:36:56 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 12:36:56 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@120f102b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@625732, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@51dcb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cad498c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6454ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2accdbb5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@b62d79, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@27ff5d15]
+2019-06-14 12:36:56 - HV000001: Hibernate Validator 6.0.14.Final
+2019-06-14 12:36:56 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 231104 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 12:36:56 - No active profile set, falling back to default profiles: default
+2019-06-14 12:37:00 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 12:37:00 - Finished Spring Data repository scanning in 122ms. Found 1 repository interfaces.
+2019-06-14 12:37:02 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5598efb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 12:37:02 - HikariPool-1 - Starting...
+2019-06-14 12:37:04 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 12:37:04 - HikariPool-1 - Start completed.
+2019-06-14 12:37:04 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 12:37:05 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 12:37:05 - HHH000206: hibernate.properties not found
+2019-06-14 12:37:05 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 12:37:05 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 12:37:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 12:37:13 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 12:37:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 12:37:16 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 12:37:16 - Started ProjectApplicationTests in 20.357 seconds (JVM running for 22.614)
+2019-06-14 12:37:17 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 12:37:17 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 12:37:17 - HikariPool-1 - Shutdown initiated...
+2019-06-14 12:37:17 - HikariPool-1 - Shutdown completed.
+2019-06-14 17:06:07 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.project.ProjectApplicationTests], using SpringBootContextLoader
+2019-06-14 17:06:07 - Could not detect default resource locations for test class [com.sample.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-14 17:06:07 - Could not detect default configuration classes for test class [com.sample.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-14 17:06:08 - Found @SpringBootConfiguration com.sample.project.ProjectApplication for test class com.sample.project.ProjectApplicationTests
+2019-06-14 17:06:08 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-14 17:06:08 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@272ed83b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@41fecb8b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@120f102b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51dcb805, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66498326, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2accdbb5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b62d79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ace1ed4]
+2019-06-14 17:06:09 - Starting ProjectApplicationTests on DESKTOP-11J5U7N with PID 256012 (started by UPPERLINK in C:\Users\UPPERLINK\Desktop\project)
+2019-06-14 17:06:09 - No active profile set, falling back to default profiles: default
+2019-06-14 17:06:13 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 17:06:13 - Finished Spring Data repository scanning in 168ms. Found 1 repository interfaces.
+2019-06-14 17:06:15 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e836c25b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 17:06:16 - HikariPool-1 - Starting...
+2019-06-14 17:06:17 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-06-14 17:06:17 - HikariPool-1 - Start completed.
+2019-06-14 17:06:18 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 17:06:19 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-14 17:06:19 - HHH000206: hibernate.properties not found
+2019-06-14 17:06:20 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 17:06:21 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-06-14 17:06:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 17:06:36 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 17:06:36 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 17:06:41 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-14 17:06:41 - Started ProjectApplicationTests in 33.248 seconds (JVM running for 36.215)
+2019-06-14 17:06:43 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-14 17:06:43 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 17:06:43 - HikariPool-1 - Shutdown initiated...
+2019-06-14 17:06:43 - HikariPool-1 - Shutdown completed.

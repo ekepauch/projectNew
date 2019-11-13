@@ -1,0 +1,33 @@
+2019-05-15 01:28:19 - Starting ProjectApplication on DESKTOP-765QC83 with PID 11972 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-15 01:28:19 - No active profile set, falling back to default profiles: default
+2019-05-15 01:28:19 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-15 01:28:19 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-15 01:28:21 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-15 01:28:22 - Finished Spring Data repository scanning in 101ms. Found 1 repository interfaces.
+2019-05-15 01:28:22 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58db22fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 01:28:24 - Tomcat initialized with port(s): 8092 (http)
+2019-05-15 01:28:24 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-05-15 01:28:24 - Starting service [Tomcat]
+2019-05-15 01:28:24 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 01:28:24 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-15 01:28:25 - Initializing Spring embedded WebApplicationContext
+2019-05-15 01:28:25 - Root WebApplicationContext: initialization completed in 5313 ms
+2019-05-15 01:28:26 - HikariPool-1 - Starting...
+2019-05-15 01:28:26 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-15 01:28:26 - HikariPool-1 - Start completed.
+2019-05-15 01:28:27 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-15 01:28:27 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-15 01:28:27 - HHH000206: hibernate.properties not found
+2019-05-15 01:28:27 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-15 01:28:27 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-15 01:28:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-15 01:28:32 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 01:28:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-15 01:28:35 - LiveReload server is running on port 35729
+2019-05-15 01:28:36 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-15 01:28:36 - Starting ProtocolHandler ["http-nio-8092"]
+2019-05-15 01:28:36 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-05-15 01:28:36 - Started ProjectApplication in 17.304 seconds (JVM running for 50.839)
+2019-05-15 23:17:57 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h11m20s501ms553µs694ns).

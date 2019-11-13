@@ -1,0 +1,32 @@
+2019-03-15 08:00:16 - Starting ProjectApplication on SOLDEV28 with PID 14392 (C:\Users\amaechi.ekene\Desktop\project\target\classes started by amaechi.ekene in C:\Users\amaechi.ekene\Desktop\project)
+2019-03-15 08:00:16 - No active profile set, falling back to default profiles: default
+2019-03-15 08:00:16 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-15 08:00:16 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-15 08:00:19 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-15 08:00:19 - Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2019-03-15 08:00:19 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58f7774b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-15 08:00:21 - Tomcat initialized with port(s): 8092 (http)
+2019-03-15 08:00:21 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-03-15 08:00:21 - Starting service [Tomcat]
+2019-03-15 08:00:21 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-15 08:00:21 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_20\bin;C:\Program Files\PuTTY\;C:\Users\amaechi.ekene\AppData\Local\Microsoft\WindowsApps;C:\Users\amaechi.ekene\AppData\Local\Programs\Git\cmd;C:\Users\amaechi.ekene\AppData\Roaming\npm;;.]
+2019-03-15 08:00:21 - Initializing Spring embedded WebApplicationContext
+2019-03-15 08:00:21 - Root WebApplicationContext: initialization completed in 4575 ms
+2019-03-15 08:00:22 - HikariPool-1 - Starting...
+2019-03-15 08:00:23 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-03-15 08:00:23 - HikariPool-1 - Start completed.
+2019-03-15 08:00:23 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-15 08:00:23 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-15 08:00:23 - HHH000206: hibernate.properties not found
+2019-03-15 08:00:23 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-15 08:00:24 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-03-15 08:00:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-15 08:00:25 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-15 08:00:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-15 08:00:26 - LiveReload server is running on port 35729
+2019-03-15 08:00:26 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-15 08:00:26 - Starting ProtocolHandler ["http-nio-8092"]
+2019-03-15 08:00:26 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-03-15 08:00:26 - Started ProjectApplication in 10.501 seconds (JVM running for 11.986)

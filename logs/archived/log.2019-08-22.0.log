@@ -1,0 +1,447 @@
+2019-08-22 10:41:14 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 265704 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 10:41:14 - No active profile set, falling back to default profiles: default
+2019-08-22 10:41:15 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 10:41:15 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 10:41:25 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 10:41:26 - Finished Spring Data repository scanning in 660ms. Found 1 repository interfaces.
+2019-08-22 10:41:28 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$87543283] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 10:41:32 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 10:41:33 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 10:41:33 - Starting service [Tomcat]
+2019-08-22 10:41:33 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 10:41:33 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 10:41:34 - Initializing Spring embedded WebApplicationContext
+2019-08-22 10:41:34 - Root WebApplicationContext: initialization completed in 18840 ms
+2019-08-22 10:41:37 - HikariPool-1 - Starting...
+2019-08-22 10:41:39 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 10:41:40 - HikariPool-1 - Start completed.
+2019-08-22 10:41:40 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 10:41:42 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 10:41:42 - HHH000206: hibernate.properties not found
+2019-08-22 10:41:42 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 10:41:43 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 10:41:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 10:41:55 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 10:41:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 10:41:57 - 
+
+Using generated security password: 837901af-6c0b-46ef-958f-f40e0aa5a4ff
+
+2019-08-22 10:41:57 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ec67c0, org.springframework.security.web.context.SecurityContextPersistenceFilter@15f2d90b, org.springframework.security.web.header.HeaderWriterFilter@3152075a, org.springframework.security.web.csrf.CsrfFilter@37a92231, org.springframework.security.web.authentication.logout.LogoutFilter@7c23aa65, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5569407d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@74d52878, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3de74a47, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@708538f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e784adb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51c6767a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76afaa3, org.springframework.security.web.session.SessionManagementFilter@15876af3, org.springframework.security.web.access.ExceptionTranslationFilter@3837b0b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79da1059]
+2019-08-22 10:41:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-22 10:41:59 - LiveReload server is running on port 35729
+2019-08-22 10:41:59 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 10:41:59 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 10:41:59 - Started ProjectApplication in 48.629 seconds (JVM running for 90.947)
+2019-08-22 10:48:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 10:48:43 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 10:48:43 - Completed initialization in 10 ms
+2019-08-22 10:58:29 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 268688 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 10:58:29 - No active profile set, falling back to default profiles: default
+2019-08-22 10:58:29 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 10:58:29 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 10:58:32 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 10:58:33 - Finished Spring Data repository scanning in 203ms. Found 1 repository interfaces.
+2019-08-22 10:58:34 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aadaf60a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 10:58:35 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 10:58:35 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 10:58:35 - Starting service [Tomcat]
+2019-08-22 10:58:35 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 10:58:35 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 10:58:35 - Initializing Spring embedded WebApplicationContext
+2019-08-22 10:58:35 - Root WebApplicationContext: initialization completed in 5743 ms
+2019-08-22 10:58:36 - HikariPool-1 - Starting...
+2019-08-22 10:58:37 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 10:58:37 - HikariPool-1 - Start completed.
+2019-08-22 10:58:37 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 10:58:37 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 10:58:37 - HHH000206: hibernate.properties not found
+2019-08-22 10:58:37 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 10:58:38 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 10:58:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 10:58:40 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 10:58:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 10:58:41 - 
+
+Using generated security password: e8c213b4-1e0e-4ade-a381-fda9ad1382d8
+
+2019-08-22 10:58:41 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72223d36, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a0ebc7c, org.springframework.security.web.header.HeaderWriterFilter@5c9b0d0d, org.springframework.security.web.csrf.CsrfFilter@28a307c, org.springframework.security.web.authentication.logout.LogoutFilter@4b7aba37, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f9e3264, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@f68dedf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7356200e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6c5a7799, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d672749, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77466497, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74b891e, org.springframework.security.web.session.SessionManagementFilter@13392add, org.springframework.security.web.access.ExceptionTranslationFilter@3533301e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5649aa]
+2019-08-22 10:58:42 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-22 10:58:42 - LiveReload server is running on port 35729
+2019-08-22 10:58:42 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 10:58:43 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 10:58:43 - Started ProjectApplication in 13.674 seconds (JVM running for 17.975)
+2019-08-22 10:58:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 10:58:53 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 10:58:53 - Completed initialization in 88 ms
+2019-08-22 11:35:05 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 271196 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 11:35:05 - No active profile set, falling back to default profiles: default
+2019-08-22 11:35:05 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 11:35:05 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 11:35:07 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 11:35:07 - Finished Spring Data repository scanning in 136ms. Found 1 repository interfaces.
+2019-08-22 11:35:08 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4abd7117] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 11:35:09 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 11:35:09 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 11:35:09 - Starting service [Tomcat]
+2019-08-22 11:35:09 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 11:35:09 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 11:35:09 - Initializing Spring embedded WebApplicationContext
+2019-08-22 11:35:09 - Root WebApplicationContext: initialization completed in 4399 ms
+2019-08-22 11:35:10 - HikariPool-1 - Starting...
+2019-08-22 11:35:11 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 11:35:11 - HikariPool-1 - Start completed.
+2019-08-22 11:35:11 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 11:35:11 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 11:35:11 - HHH000206: hibernate.properties not found
+2019-08-22 11:35:12 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 11:35:12 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 11:35:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 11:35:15 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 11:35:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 11:35:16 - 
+
+Using generated security password: 16f60916-723a-4f10-b0ee-ac7e4d7107c8
+
+2019-08-22 11:35:16 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e678077, org.springframework.security.web.context.SecurityContextPersistenceFilter@20d718ed, org.springframework.security.web.header.HeaderWriterFilter@56c26e8a, org.springframework.security.web.csrf.CsrfFilter@5065810b, org.springframework.security.web.authentication.logout.LogoutFilter@5dc2994f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6918af6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@220c70a3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@311a378, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@71fda435, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fa26b38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b29b683, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34a5e6fd, org.springframework.security.web.session.SessionManagementFilter@6896a525, org.springframework.security.web.access.ExceptionTranslationFilter@2a51d3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@170ef760]
+2019-08-22 11:35:17 - Exposing 2 endpoint(s) beneath base path '/management'
+2019-08-22 11:35:17 - LiveReload server is running on port 35729
+2019-08-22 11:35:17 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 11:35:17 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 11:35:17 - Started ProjectApplication in 12.979 seconds (JVM running for 16.953)
+2019-08-22 11:35:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 11:35:36 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 11:35:36 - Completed initialization in 15 ms
+2019-08-22 11:36:03 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String ";"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:325)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:293)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-22 11:39:57 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 271604 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 11:39:57 - No active profile set, falling back to default profiles: default
+2019-08-22 11:39:57 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 11:39:57 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 11:40:01 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 11:40:01 - Finished Spring Data repository scanning in 106ms. Found 1 repository interfaces.
+2019-08-22 11:40:02 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$829526fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 11:40:03 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 11:40:03 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 11:40:03 - Starting service [Tomcat]
+2019-08-22 11:40:03 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 11:40:03 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 11:40:03 - Initializing Spring embedded WebApplicationContext
+2019-08-22 11:40:03 - Root WebApplicationContext: initialization completed in 5830 ms
+2019-08-22 11:40:04 - HikariPool-1 - Starting...
+2019-08-22 11:40:05 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 11:40:05 - HikariPool-1 - Start completed.
+2019-08-22 11:40:05 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 11:40:05 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 11:40:05 - HHH000206: hibernate.properties not found
+2019-08-22 11:40:05 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 11:40:05 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 11:40:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 11:40:08 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 11:40:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 11:40:09 - 
+
+Using generated security password: d4c11c0b-6bcb-4ce5-b8e5-a1310a11e97f
+
+2019-08-22 11:40:10 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@239d3c49, org.springframework.security.web.context.SecurityContextPersistenceFilter@54763126, org.springframework.security.web.header.HeaderWriterFilter@75c5ea3b, org.springframework.security.web.csrf.CsrfFilter@3b847876, org.springframework.security.web.authentication.logout.LogoutFilter@74be44be, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5fe74b94, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@527bee2f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3f48313c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5ab610b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56ef6bc3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76f221af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51dfe49, org.springframework.security.web.session.SessionManagementFilter@5fe122b7, org.springframework.security.web.access.ExceptionTranslationFilter@1985e6bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67930d04]
+2019-08-22 11:40:10 - Exposing 2 endpoint(s) beneath base path '/management'
+2019-08-22 11:40:10 - LiveReload server is running on port 35729
+2019-08-22 11:40:10 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 11:40:10 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 11:40:10 - Started ProjectApplication in 13.93 seconds (JVM running for 16.749)
+2019-08-22 11:40:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 11:40:17 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 11:40:17 - Completed initialization in 14 ms
+2019-08-22 11:55:27 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 273756 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 11:55:27 - No active profile set, falling back to default profiles: default
+2019-08-22 11:55:27 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 11:55:27 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 11:55:29 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 11:55:29 - Finished Spring Data repository scanning in 139ms. Found 1 repository interfaces.
+2019-08-22 11:55:31 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80f967cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 11:55:32 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 11:55:32 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 11:55:32 - Starting service [Tomcat]
+2019-08-22 11:55:32 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 11:55:32 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 11:55:33 - Initializing Spring embedded WebApplicationContext
+2019-08-22 11:55:33 - Root WebApplicationContext: initialization completed in 5606 ms
+2019-08-22 11:55:34 - HikariPool-1 - Starting...
+2019-08-22 11:55:34 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 11:55:34 - HikariPool-1 - Start completed.
+2019-08-22 11:55:35 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 11:55:35 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 11:55:35 - HHH000206: hibernate.properties not found
+2019-08-22 11:55:35 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 11:55:35 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 11:55:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 11:55:37 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 11:55:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 11:55:38 - 
+
+Using generated security password: 17ef386b-4f53-474c-a80a-08a8e5ffa7a2
+
+2019-08-22 11:55:38 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45839532, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c1c05fa, org.springframework.security.web.header.HeaderWriterFilter@3c45d5b1, org.springframework.security.web.csrf.CsrfFilter@250311c3, org.springframework.security.web.authentication.logout.LogoutFilter@39c8a92b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@23a068d7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@34b0383e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4554835d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4adbc010, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35b1f63, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7571127a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d016317, org.springframework.security.web.session.SessionManagementFilter@212fdd84, org.springframework.security.web.access.ExceptionTranslationFilter@a142670, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b622c5c]
+2019-08-22 11:55:38 - Exposing 5 endpoint(s) beneath base path '/management'
+2019-08-22 11:55:39 - LiveReload server is running on port 35729
+2019-08-22 11:55:39 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 11:55:39 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 11:55:39 - Started ProjectApplication in 12.826 seconds (JVM running for 15.846)
+2019-08-22 11:56:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 11:56:43 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 11:56:43 - Completed initialization in 16 ms
+2019-08-22 12:03:16 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 275024 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 12:03:16 - No active profile set, falling back to default profiles: default
+2019-08-22 12:03:16 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 12:03:16 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 12:03:19 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 12:03:19 - Finished Spring Data repository scanning in 87ms. Found 1 repository interfaces.
+2019-08-22 12:03:19 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ba0cd05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 12:03:20 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 12:03:20 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 12:03:20 - Starting service [Tomcat]
+2019-08-22 12:03:20 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 12:03:20 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 12:03:21 - Initializing Spring embedded WebApplicationContext
+2019-08-22 12:03:21 - Root WebApplicationContext: initialization completed in 4625 ms
+2019-08-22 12:03:22 - HikariPool-1 - Starting...
+2019-08-22 12:03:22 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 12:03:23 - HikariPool-1 - Start completed.
+2019-08-22 12:03:23 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 12:03:23 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 12:03:23 - HHH000206: hibernate.properties not found
+2019-08-22 12:03:23 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 12:03:24 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 12:03:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 12:03:26 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 12:03:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 12:03:27 - 
+
+Using generated security password: 5b9bde96-5fb5-45f7-8031-f3a388a24570
+
+2019-08-22 12:03:28 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40bec369, org.springframework.security.web.context.SecurityContextPersistenceFilter@677e3741, org.springframework.security.web.header.HeaderWriterFilter@7eab4551, org.springframework.security.web.csrf.CsrfFilter@85a8d97, org.springframework.security.web.authentication.logout.LogoutFilter@36cfd17a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@fa0e18d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3698cd2e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@646e6a8e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3922cadc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47dd46cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f2d6109, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@350c6b1d, org.springframework.security.web.session.SessionManagementFilter@beb96a2, org.springframework.security.web.access.ExceptionTranslationFilter@68cefec4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40ea1245]
+2019-08-22 12:03:28 - Exposing 5 endpoint(s) beneath base path '/management'
+2019-08-22 12:03:28 - LiveReload server is running on port 35729
+2019-08-22 12:03:28 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 12:03:28 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 12:03:28 - Started ProjectApplication in 13.463 seconds (JVM running for 16.244)
+2019-08-22 12:03:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 12:03:53 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 12:03:53 - Completed initialization in 18 ms
+2019-08-22 12:05:23 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 275312 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 12:05:23 - No active profile set, falling back to default profiles: default
+2019-08-22 12:05:23 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 12:05:23 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 12:05:26 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 12:05:26 - Finished Spring Data repository scanning in 129ms. Found 1 repository interfaces.
+2019-08-22 12:05:28 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e99654c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 12:05:28 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 12:05:28 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 12:05:29 - Starting service [Tomcat]
+2019-08-22 12:05:29 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 12:05:29 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 12:05:29 - Initializing Spring embedded WebApplicationContext
+2019-08-22 12:05:29 - Root WebApplicationContext: initialization completed in 6235 ms
+2019-08-22 12:05:31 - HikariPool-1 - Starting...
+2019-08-22 12:05:33 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 12:05:33 - HikariPool-1 - Start completed.
+2019-08-22 12:05:33 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 12:05:33 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 12:05:33 - HHH000206: hibernate.properties not found
+2019-08-22 12:05:34 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 12:05:34 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 12:05:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 12:05:36 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 12:05:36 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 12:05:37 - 
+
+Using generated security password: 4f97f98c-d24b-46eb-af69-e54b2d5457e6
+
+2019-08-22 12:05:37 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7021b3c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f41aa51, org.springframework.security.web.header.HeaderWriterFilter@3e46ec6c, org.springframework.security.web.csrf.CsrfFilter@26613710, org.springframework.security.web.authentication.logout.LogoutFilter@1ce16357, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@48550801, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6419b852, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6c2c1322, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@334f30f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bc14b32, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@301c896c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29baea51, org.springframework.security.web.session.SessionManagementFilter@407a1b1d, org.springframework.security.web.access.ExceptionTranslationFilter@59c054d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79d5391a]
+2019-08-22 12:05:37 - Exposing 5 endpoint(s) beneath base path '/actuator'
+2019-08-22 12:05:38 - LiveReload server is running on port 35729
+2019-08-22 12:05:38 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 12:05:38 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 12:05:38 - Started ProjectApplication in 15.998 seconds (JVM running for 18.998)
+2019-08-22 12:05:49 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 12:05:49 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 12:05:49 - Completed initialization in 21 ms
+2019-08-22 12:07:15 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 275296 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 12:07:15 - No active profile set, falling back to default profiles: default
+2019-08-22 12:07:15 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 12:07:15 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 12:07:18 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 12:07:18 - Finished Spring Data repository scanning in 134ms. Found 1 repository interfaces.
+2019-08-22 12:07:19 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0f03ef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 12:07:20 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 12:07:20 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 12:07:20 - Starting service [Tomcat]
+2019-08-22 12:07:20 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 12:07:20 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 12:07:21 - Initializing Spring embedded WebApplicationContext
+2019-08-22 12:07:21 - Root WebApplicationContext: initialization completed in 5700 ms
+2019-08-22 12:07:22 - HikariPool-1 - Starting...
+2019-08-22 12:07:22 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 12:07:22 - HikariPool-1 - Start completed.
+2019-08-22 12:07:23 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 12:07:23 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 12:07:23 - HHH000206: hibernate.properties not found
+2019-08-22 12:07:23 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 12:07:23 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 12:07:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 12:07:26 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 12:07:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 12:07:26 - 
+
+Using generated security password: 1868a9ce-e57e-4997-ab47-59e2ec17008b
+
+2019-08-22 12:07:27 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9a8ddc8, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c48d0e5, org.springframework.security.web.header.HeaderWriterFilter@28e7a2e, org.springframework.security.web.csrf.CsrfFilter@4c768910, org.springframework.security.web.authentication.logout.LogoutFilter@59548797, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f6c0dec, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7d929dcc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@17e9dbc1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58ad44da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6156651e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71ccbc6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@734cac01, org.springframework.security.web.session.SessionManagementFilter@20ae39ea, org.springframework.security.web.access.ExceptionTranslationFilter@645514b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5781d8f6]
+2019-08-22 12:07:27 - Exposing 5 endpoint(s) beneath base path '/management'
+2019-08-22 12:07:27 - LiveReload server is running on port 35729
+2019-08-22 12:07:27 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 12:07:27 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 12:07:27 - Started ProjectApplication in 12.987 seconds (JVM running for 17.744)
+2019-08-22 12:07:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 12:07:34 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 12:07:34 - Completed initialization in 9 ms
+2019-08-22 13:23:11 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 278472 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 13:23:11 - No active profile set, falling back to default profiles: default
+2019-08-22 13:23:11 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 13:23:11 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 13:23:14 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 13:23:14 - Finished Spring Data repository scanning in 108ms. Found 1 repository interfaces.
+2019-08-22 13:23:15 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3801bd72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 13:23:16 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 13:23:16 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 13:23:16 - Starting service [Tomcat]
+2019-08-22 13:23:16 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 13:23:16 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 13:23:17 - Initializing Spring embedded WebApplicationContext
+2019-08-22 13:23:17 - Root WebApplicationContext: initialization completed in 5223 ms
+2019-08-22 13:23:18 - HikariPool-1 - Starting...
+2019-08-22 13:23:19 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 13:23:19 - HikariPool-1 - Start completed.
+2019-08-22 13:23:19 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 13:23:19 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 13:23:19 - HHH000206: hibernate.properties not found
+2019-08-22 13:23:19 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 13:23:19 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 13:23:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 13:23:21 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 13:23:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 13:23:22 - 
+
+Using generated security password: 9e5bdb7f-2263-48b0-932c-2f9258ddbe8c
+
+2019-08-22 13:23:22 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12bc65cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d7f4adc, org.springframework.security.web.header.HeaderWriterFilter@53f0a5e9, org.springframework.security.web.csrf.CsrfFilter@db24c26, org.springframework.security.web.authentication.logout.LogoutFilter@2781def2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c808a32, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7a861156, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@15cd9282, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2fdee260, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10c249cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ecd9c50, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6350e12b, org.springframework.security.web.session.SessionManagementFilter@41b1b8de, org.springframework.security.web.access.ExceptionTranslationFilter@5c194c09, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7073b93b]
+2019-08-22 13:23:22 - Exposing 2 endpoint(s) beneath base path '/management'
+2019-08-22 13:23:22 - LiveReload server is running on port 35729
+2019-08-22 13:23:22 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 13:23:22 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 13:23:22 - Started ProjectApplication in 12.138 seconds (JVM running for 14.58)
+2019-08-22 13:23:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 13:23:29 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 13:23:29 - Completed initialization in 12 ms
+2019-08-22 13:24:16 - Starting ProjectApplication on DESKTOP-11J5U7N with PID 278812 (C:\Users\UPPERLINK\Desktop\PROJECTS\project\target\classes started by UPPERLINK in C:\Users\UPPERLINK\Desktop\PROJECTS\project)
+2019-08-22 13:24:16 - No active profile set, falling back to default profiles: default
+2019-08-22 13:24:16 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-22 13:24:16 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-22 13:24:18 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 13:24:18 - Finished Spring Data repository scanning in 82ms. Found 1 repository interfaces.
+2019-08-22 13:24:19 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c33eba17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 13:24:20 - Tomcat initialized with port(s): 8092 (http)
+2019-08-22 13:24:20 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-08-22 13:24:20 - Starting service [Tomcat]
+2019-08-22 13:24:20 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-22 13:24:20 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\UPPERLINK\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Zookeeper\zookeeper-3.4.10\bin;C:\Program Files\Git\cmd;C:\Users\UPPERLINK\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\UPPERLINK\AppData\Roaming\npm;.]
+2019-08-22 13:24:20 - Initializing Spring embedded WebApplicationContext
+2019-08-22 13:24:20 - Root WebApplicationContext: initialization completed in 3973 ms
+2019-08-22 13:24:21 - HikariPool-1 - Starting...
+2019-08-22 13:24:21 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-08-22 13:24:22 - HikariPool-1 - Start completed.
+2019-08-22 13:24:22 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 13:24:22 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-22 13:24:22 - HHH000206: hibernate.properties not found
+2019-08-22 13:24:22 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-22 13:24:23 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-08-22 13:24:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 13:24:25 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 13:24:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 13:24:25 - 
+
+Using generated security password: 95d60344-e0db-4451-8cb0-a4861866ac28
+
+2019-08-22 13:24:26 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47fbfe4e, org.springframework.security.web.context.SecurityContextPersistenceFilter@777283a7, org.springframework.security.web.header.HeaderWriterFilter@3716d60d, org.springframework.security.web.csrf.CsrfFilter@13a8577, org.springframework.security.web.authentication.logout.LogoutFilter@209e1bd6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@565f473f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1f52341a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3465e1c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@73a6b132, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@164c066c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@225e2ef4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49b9c618, org.springframework.security.web.session.SessionManagementFilter@7c92e3ed, org.springframework.security.web.access.ExceptionTranslationFilter@7b42dddc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@301a8fe3]
+2019-08-22 13:24:26 - Exposing 2 endpoint(s) beneath base path '/management'
+2019-08-22 13:24:26 - LiveReload server is running on port 35729
+2019-08-22 13:24:26 - Starting ProtocolHandler ["http-nio-8092"]
+2019-08-22 13:24:26 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-08-22 13:24:26 - Started ProjectApplication in 11.333 seconds (JVM running for 13.607)
+2019-08-22 13:24:32 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 13:24:32 - Initializing Servlet 'dispatcherServlet'
+2019-08-22 13:24:32 - Completed initialization in 21 ms

@@ -1,0 +1,803 @@
+2019-05-31 09:08:02 - Starting ProjectApplication on DESKTOP-765QC83 with PID 8000 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 09:08:02 - No active profile set, falling back to default profiles: default
+2019-05-31 09:08:02 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 09:08:02 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 09:08:04 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 09:08:04 - Finished Spring Data repository scanning in 97ms. Found 1 repository interfaces.
+2019-05-31 09:08:05 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2978e2c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 09:08:06 - Tomcat initialized with port(s): 8092 (http)
+2019-05-31 09:08:06 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-05-31 09:08:06 - Starting service [Tomcat]
+2019-05-31 09:08:06 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 09:08:06 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 09:08:06 - Initializing Spring embedded WebApplicationContext
+2019-05-31 09:08:06 - Root WebApplicationContext: initialization completed in 3468 ms
+2019-05-31 09:08:07 - HikariPool-1 - Starting...
+2019-05-31 09:08:07 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 09:08:07 - HikariPool-1 - Start completed.
+2019-05-31 09:08:07 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 09:08:07 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 09:08:07 - HHH000206: hibernate.properties not found
+2019-05-31 09:08:07 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 09:08:08 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 09:08:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 09:08:09 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 09:08:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 09:08:10 - LiveReload server is running on port 35729
+2019-05-31 09:08:10 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 09:08:10 - Starting ProtocolHandler ["http-nio-8092"]
+2019-05-31 09:08:10 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-05-31 09:08:10 - Started ProjectApplication in 7.791 seconds (JVM running for 30.978)
+2019-05-31 10:55:11 - Starting ProjectApplication on DESKTOP-765QC83 with PID 17188 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 10:55:11 - No active profile set, falling back to default profiles: default
+2019-05-31 10:55:11 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 10:55:11 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 10:55:13 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 10:55:13 - Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2019-05-31 10:55:13 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd77a98b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 10:55:14 - Tomcat initialized with port(s): 8092 (http)
+2019-05-31 10:55:14 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-05-31 10:55:14 - Starting service [Tomcat]
+2019-05-31 10:55:14 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 10:55:14 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 10:55:14 - Initializing Spring embedded WebApplicationContext
+2019-05-31 10:55:14 - Root WebApplicationContext: initialization completed in 2998 ms
+2019-05-31 10:55:14 - HikariPool-1 - Starting...
+2019-05-31 10:55:15 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 10:55:15 - HikariPool-1 - Start completed.
+2019-05-31 10:55:15 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 10:55:15 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 10:55:15 - HHH000206: hibernate.properties not found
+2019-05-31 10:55:15 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 10:55:15 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 10:55:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 10:55:16 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 10:55:16 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 10:55:17 - LiveReload server is running on port 35729
+2019-05-31 10:55:17 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 10:55:17 - Starting ProtocolHandler ["http-nio-8092"]
+2019-05-31 10:55:17 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-05-31 10:55:17 - Started ProjectApplication in 6.717 seconds (JVM running for 8.532)
+2019-05-31 10:56:00 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 10:56:00 - Initializing Servlet 'dispatcherServlet'
+2019-05-31 10:56:00 - Completed initialization in 9 ms
+2019-05-31 10:58:04 - Starting ProjectApplication on DESKTOP-765QC83 with PID 15384 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 10:58:04 - No active profile set, falling back to default profiles: default
+2019-05-31 10:58:04 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 10:58:04 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 10:58:06 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 10:58:06 - Finished Spring Data repository scanning in 84ms. Found 1 repository interfaces.
+2019-05-31 10:58:06 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$89ed243c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 10:58:07 - Tomcat initialized with port(s): 8092 (http)
+2019-05-31 10:58:07 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-05-31 10:58:07 - Starting service [Tomcat]
+2019-05-31 10:58:07 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 10:58:07 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 10:58:07 - Initializing Spring embedded WebApplicationContext
+2019-05-31 10:58:07 - Root WebApplicationContext: initialization completed in 2502 ms
+2019-05-31 10:58:08 - HikariPool-1 - Starting...
+2019-05-31 10:58:08 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 10:58:08 - HikariPool-1 - Start completed.
+2019-05-31 10:58:08 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 10:58:08 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 10:58:08 - HHH000206: hibernate.properties not found
+2019-05-31 10:58:08 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 10:58:08 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 10:58:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 10:58:09 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 10:58:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 10:58:10 - LiveReload server is running on port 35729
+2019-05-31 10:58:10 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 10:58:10 - Starting ProtocolHandler ["http-nio-8092"]
+2019-05-31 10:58:10 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-05-31 10:58:10 - Started ProjectApplication in 6.455 seconds (JVM running for 8.145)
+2019-05-31 10:59:13 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 10:59:13 - Initializing Servlet 'dispatcherServlet'
+2019-05-31 10:59:13 - Completed initialization in 10 ms
+2019-05-31 11:00:12 - Starting ProjectApplication on DESKTOP-765QC83 with PID 5876 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:00:12 - No active profile set, falling back to default profiles: default
+2019-05-31 11:00:12 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 11:00:12 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 11:00:14 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:00:14 - Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2019-05-31 11:00:14 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$580f1f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:00:15 - Tomcat initialized with port(s): 8092 (http)
+2019-05-31 11:00:15 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-05-31 11:00:15 - Starting service [Tomcat]
+2019-05-31 11:00:15 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:00:15 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 11:00:15 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:00:15 - Root WebApplicationContext: initialization completed in 2853 ms
+2019-05-31 11:00:15 - HikariPool-1 - Starting...
+2019-05-31 11:00:16 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:00:16 - HikariPool-1 - Start completed.
+2019-05-31 11:00:16 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:00:16 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 11:00:16 - HHH000206: hibernate.properties not found
+2019-05-31 11:00:16 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 11:00:16 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:00:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:00:17 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:00:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:00:18 - LiveReload server is running on port 35729
+2019-05-31 11:00:18 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:00:18 - Starting ProtocolHandler ["http-nio-8092"]
+2019-05-31 11:00:18 - Tomcat started on port(s): 8092 (http) with context path ''
+2019-05-31 11:00:18 - Started ProjectApplication in 6.662 seconds (JVM running for 8.129)
+2019-05-31 11:01:19 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 11:01:19 - Initializing Servlet 'dispatcherServlet'
+2019-05-31 11:01:19 - Completed initialization in 32 ms
+2019-05-31 11:06:29 - Starting ProjectApplication on DESKTOP-765QC83 with PID 6172 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:06:29 - No active profile set, falling back to default profiles: default
+2019-05-31 11:06:30 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 11:06:30 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 11:06:33 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:06:33 - Finished Spring Data repository scanning in 113ms. Found 1 repository interfaces.
+2019-05-31 11:06:34 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54cd5d4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:06:36 - Tomcat initialized with port(s): 8092 (http)
+2019-05-31 11:06:36 - Initializing ProtocolHandler ["http-nio-8092"]
+2019-05-31 11:06:36 - Starting service [Tomcat]
+2019-05-31 11:06:36 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:06:36 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 11:06:36 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:06:36 - Root WebApplicationContext: initialization completed in 6648 ms
+2019-05-31 11:06:38 - HikariPool-1 - Starting...
+2019-05-31 11:06:39 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:06:39 - HikariPool-1 - Start completed.
+2019-05-31 11:06:39 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:06:39 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 11:06:39 - HHH000206: hibernate.properties not found
+2019-05-31 11:06:40 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 11:06:40 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:06:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:06:43 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:06:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:06:44 - Unable to start LiveReload server
+2019-05-31 11:06:44 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:06:44 - Starting ProtocolHandler ["http-nio-8092"]
+2019-05-31 11:06:44 - Failed to start component [Connector[HTTP/1.1-8092]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.sample.project.ProjectApplication.main(ProjectApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-05-31 11:06:44 - Pausing ProtocolHandler ["http-nio-8092"]
+2019-05-31 11:06:44 - Stopping service [Tomcat]
+2019-05-31 11:06:44 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-05-31 11:06:44 - Stopping ProtocolHandler ["http-nio-8092"]
+2019-05-31 11:06:44 - Destroying ProtocolHandler ["http-nio-8092"]
+2019-05-31 11:06:44 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-31 11:06:44 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8092 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8092, or configure this application to listen on another port.
+
+2019-05-31 11:06:44 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:06:44 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:06:44 - HikariPool-1 - Shutdown initiated...
+2019-05-31 11:06:44 - HikariPool-1 - Shutdown completed.
+2019-05-31 11:07:29 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:07:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:07:29 - HikariPool-1 - Shutdown initiated...
+2019-05-31 11:07:29 - HikariPool-1 - Shutdown completed.
+2019-05-31 11:07:30 - Starting ProjectApplication on DESKTOP-765QC83 with PID 5876 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:07:30 - No active profile set, falling back to default profiles: default
+2019-05-31 11:07:31 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:07:31 - Finished Spring Data repository scanning in 27ms. Found 1 repository interfaces.
+2019-05-31 11:07:32 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$580f1f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:07:33 - Tomcat initialized with port(s): 8093 (http)
+2019-05-31 11:07:33 - Initializing ProtocolHandler ["http-nio-8093"]
+2019-05-31 11:07:33 - Starting service [Tomcat]
+2019-05-31 11:07:33 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:07:33 - Starting ProjectApplication on DESKTOP-765QC83 with PID 20300 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:07:33 - No active profile set, falling back to default profiles: default
+2019-05-31 11:07:33 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:07:33 - Root WebApplicationContext: initialization completed in 2947 ms
+2019-05-31 11:07:33 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 11:07:33 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 11:07:35 - HikariPool-2 - Starting...
+2019-05-31 11:07:35 - HikariPool-2 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:07:35 - HikariPool-2 - Start completed.
+2019-05-31 11:07:35 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:07:35 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:07:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:07:36 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:07:36 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:07:36 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:07:36 - Finished Spring Data repository scanning in 159ms. Found 1 repository interfaces.
+2019-05-31 11:07:37 - LiveReload server is running on port 35729
+2019-05-31 11:07:37 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:07:37 - Starting ProtocolHandler ["http-nio-8093"]
+2019-05-31 11:07:37 - Tomcat started on port(s): 8093 (http) with context path ''
+2019-05-31 11:07:37 - Started ProjectApplication in 6.575 seconds (JVM running for 447.074)
+2019-05-31 11:07:37 - Condition evaluation unchanged
+2019-05-31 11:07:38 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc11de62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:07:39 - Tomcat initialized with port(s): 8093 (http)
+2019-05-31 11:07:39 - Initializing ProtocolHandler ["http-nio-8093"]
+2019-05-31 11:07:39 - Starting service [Tomcat]
+2019-05-31 11:07:39 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:07:39 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 11:07:40 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:07:40 - Root WebApplicationContext: initialization completed in 6261 ms
+2019-05-31 11:07:41 - HikariPool-1 - Starting...
+2019-05-31 11:07:41 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:07:41 - HikariPool-1 - Start completed.
+2019-05-31 11:07:42 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:07:42 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 11:07:42 - HHH000206: hibernate.properties not found
+2019-05-31 11:07:43 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 11:07:43 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:07:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:07:47 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:07:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:07:48 - Unable to start LiveReload server
+2019-05-31 11:07:48 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:07:49 - Starting ProtocolHandler ["http-nio-8093"]
+2019-05-31 11:07:49 - Failed to start component [Connector[HTTP/1.1-8093]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.sample.project.ProjectApplication.main(ProjectApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-05-31 11:07:49 - Pausing ProtocolHandler ["http-nio-8093"]
+2019-05-31 11:07:49 - Stopping service [Tomcat]
+2019-05-31 11:07:49 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-05-31 11:07:49 - Stopping ProtocolHandler ["http-nio-8093"]
+2019-05-31 11:07:49 - Destroying ProtocolHandler ["http-nio-8093"]
+2019-05-31 11:07:49 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-31 11:07:49 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8093 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8093, or configure this application to listen on another port.
+
+2019-05-31 11:07:49 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:07:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:07:49 - HikariPool-1 - Shutdown initiated...
+2019-05-31 11:07:49 - HikariPool-1 - Shutdown completed.
+2019-05-31 11:16:02 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:16:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:16:02 - HikariPool-2 - Shutdown initiated...
+2019-05-31 11:16:02 - HikariPool-2 - Shutdown completed.
+2019-05-31 11:16:03 - Starting ProjectApplication on DESKTOP-765QC83 with PID 5876 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:16:03 - No active profile set, falling back to default profiles: default
+2019-05-31 11:16:04 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:16:04 - Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2019-05-31 11:16:04 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$580f1f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:16:05 - Tomcat initialized with port(s): 8091 (http)
+2019-05-31 11:16:05 - Initializing ProtocolHandler ["http-nio-8091"]
+2019-05-31 11:16:05 - Starting service [Tomcat]
+2019-05-31 11:16:05 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:16:05 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:16:05 - Root WebApplicationContext: initialization completed in 2315 ms
+2019-05-31 11:16:06 - HikariPool-3 - Starting...
+2019-05-31 11:16:06 - HikariPool-3 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:16:06 - HikariPool-3 - Start completed.
+2019-05-31 11:16:06 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:16:06 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:16:06 - Starting ProjectApplication on DESKTOP-765QC83 with PID 17824 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:16:06 - No active profile set, falling back to default profiles: default
+2019-05-31 11:16:06 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 11:16:06 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 11:16:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:16:09 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:16:09 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:16:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:16:09 - Finished Spring Data repository scanning in 131ms. Found 1 repository interfaces.
+2019-05-31 11:16:09 - LiveReload server is running on port 35729
+2019-05-31 11:16:09 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:16:09 - Starting ProtocolHandler ["http-nio-8091"]
+2019-05-31 11:16:09 - Tomcat started on port(s): 8091 (http) with context path ''
+2019-05-31 11:16:09 - Started ProjectApplication in 6.954 seconds (JVM running for 959.872)
+2019-05-31 11:16:10 - Condition evaluation unchanged
+2019-05-31 11:16:10 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50ab0e7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:16:12 - Tomcat initialized with port(s): 8091 (http)
+2019-05-31 11:16:12 - Initializing ProtocolHandler ["http-nio-8091"]
+2019-05-31 11:16:12 - Starting service [Tomcat]
+2019-05-31 11:16:12 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:16:12 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 11:16:12 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:16:12 - Root WebApplicationContext: initialization completed in 5536 ms
+2019-05-31 11:16:13 - HikariPool-1 - Starting...
+2019-05-31 11:16:13 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:16:14 - HikariPool-1 - Start completed.
+2019-05-31 11:16:14 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:16:14 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 11:16:14 - HHH000206: hibernate.properties not found
+2019-05-31 11:16:14 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 11:16:15 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:16:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:16:17 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:16:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:16:18 - Unable to start LiveReload server
+2019-05-31 11:16:18 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:16:18 - Starting ProtocolHandler ["http-nio-8091"]
+2019-05-31 11:16:18 - Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.sample.project.ProjectApplication.main(ProjectApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-05-31 11:16:18 - Pausing ProtocolHandler ["http-nio-8091"]
+2019-05-31 11:16:18 - Stopping service [Tomcat]
+2019-05-31 11:16:18 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-05-31 11:16:18 - Stopping ProtocolHandler ["http-nio-8091"]
+2019-05-31 11:16:18 - Destroying ProtocolHandler ["http-nio-8091"]
+2019-05-31 11:16:18 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-31 11:16:19 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-05-31 11:16:19 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:16:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:16:19 - HikariPool-1 - Shutdown initiated...
+2019-05-31 11:16:19 - HikariPool-1 - Shutdown completed.
+2019-05-31 11:18:07 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:18:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:18:07 - HikariPool-3 - Shutdown initiated...
+2019-05-31 11:18:07 - HikariPool-3 - Shutdown completed.
+2019-05-31 11:18:08 - Starting ProjectApplication on DESKTOP-765QC83 with PID 5876 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:18:08 - No active profile set, falling back to default profiles: default
+2019-05-31 11:18:09 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:18:09 - Finished Spring Data repository scanning in 49ms. Found 1 repository interfaces.
+2019-05-31 11:18:10 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$580f1f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:18:10 - Tomcat initialized with port(s): 8097 (http)
+2019-05-31 11:18:10 - Initializing ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:18:10 - Starting service [Tomcat]
+2019-05-31 11:18:10 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:18:11 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:18:11 - Root WebApplicationContext: initialization completed in 2388 ms
+2019-05-31 11:18:11 - Starting ProjectApplication on DESKTOP-765QC83 with PID 11948 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:18:11 - No active profile set, falling back to default profiles: default
+2019-05-31 11:18:11 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 11:18:11 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 11:18:13 - HikariPool-4 - Starting...
+2019-05-31 11:18:13 - HikariPool-4 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:18:13 - HikariPool-4 - Start completed.
+2019-05-31 11:18:13 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:18:13 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:18:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:18:14 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:18:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:18:14 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:18:14 - Finished Spring Data repository scanning in 139ms. Found 1 repository interfaces.
+2019-05-31 11:18:14 - LiveReload server is running on port 35729
+2019-05-31 11:18:14 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:18:14 - Starting ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:18:14 - Tomcat started on port(s): 8097 (http) with context path ''
+2019-05-31 11:18:14 - Started ProjectApplication in 6.337 seconds (JVM running for 1084.672)
+2019-05-31 11:18:14 - Condition evaluation unchanged
+2019-05-31 11:18:15 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d97b65de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:18:17 - Tomcat initialized with port(s): 8097 (http)
+2019-05-31 11:18:17 - Initializing ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:18:17 - Starting service [Tomcat]
+2019-05-31 11:18:17 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:18:17 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 11:18:17 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:18:17 - Root WebApplicationContext: initialization completed in 5704 ms
+2019-05-31 11:18:18 - HikariPool-1 - Starting...
+2019-05-31 11:18:19 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:18:19 - HikariPool-1 - Start completed.
+2019-05-31 11:18:19 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:18:19 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 11:18:19 - HHH000206: hibernate.properties not found
+2019-05-31 11:18:20 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 11:18:20 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:18:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:18:23 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:18:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:18:24 - Unable to start LiveReload server
+2019-05-31 11:18:24 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:18:25 - Starting ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:18:25 - Failed to start component [Connector[HTTP/1.1-8097]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.sample.project.ProjectApplication.main(ProjectApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-05-31 11:18:25 - Pausing ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:18:25 - Stopping service [Tomcat]
+2019-05-31 11:18:25 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-05-31 11:18:25 - Stopping ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:18:25 - Destroying ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:18:25 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-31 11:18:25 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8097 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8097, or configure this application to listen on another port.
+
+2019-05-31 11:18:25 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:18:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:18:25 - HikariPool-1 - Shutdown initiated...
+2019-05-31 11:18:25 - HikariPool-1 - Shutdown completed.
+2019-05-31 11:22:13 - Starting ProjectApplication on DESKTOP-765QC83 with PID 15588 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:22:13 - No active profile set, falling back to default profiles: default
+2019-05-31 11:22:13 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 11:22:13 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 11:22:15 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:22:15 - Finished Spring Data repository scanning in 96ms. Found 1 repository interfaces.
+2019-05-31 11:22:16 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d6391cef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:22:17 - Tomcat initialized with port(s): 8097 (http)
+2019-05-31 11:22:17 - Initializing ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:22:17 - Starting service [Tomcat]
+2019-05-31 11:22:17 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:22:17 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 11:22:17 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:22:17 - Root WebApplicationContext: initialization completed in 4237 ms
+2019-05-31 11:22:18 - HikariPool-1 - Starting...
+2019-05-31 11:22:18 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:22:18 - HikariPool-1 - Start completed.
+2019-05-31 11:22:19 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:22:19 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 11:22:19 - HHH000206: hibernate.properties not found
+2019-05-31 11:22:19 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 11:22:19 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:22:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:22:21 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:22:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:22:22 - LiveReload server is running on port 35729
+2019-05-31 11:22:22 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:22:22 - Starting ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:22:22 - Tomcat started on port(s): 8097 (http) with context path ''
+2019-05-31 11:22:22 - Started ProjectApplication in 10.601 seconds (JVM running for 12.231)
+2019-05-31 11:22:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 11:22:43 - Initializing Servlet 'dispatcherServlet'
+2019-05-31 11:22:43 - Completed initialization in 24 ms
+2019-05-31 11:23:30 - HHH000397: Using ASTQueryTranslatorFactory
+2019-05-31 11:24:30 - Starting ProjectApplication on DESKTOP-765QC83 with PID 12536 (C:\Users\User\Desktop\project\target\classes started by User in C:\Users\User\Desktop\project)
+2019-05-31 11:24:30 - No active profile set, falling back to default profiles: default
+2019-05-31 11:24:30 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 11:24:30 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 11:24:33 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 11:24:33 - Finished Spring Data repository scanning in 104ms. Found 1 repository interfaces.
+2019-05-31 11:24:34 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1102eaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 11:24:35 - Tomcat initialized with port(s): 8097 (http)
+2019-05-31 11:24:35 - Initializing ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:24:35 - Starting service [Tomcat]
+2019-05-31 11:24:35 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-31 11:24:35 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;.]
+2019-05-31 11:24:36 - Initializing Spring embedded WebApplicationContext
+2019-05-31 11:24:36 - Root WebApplicationContext: initialization completed in 5882 ms
+2019-05-31 11:24:36 - HikariPool-1 - Starting...
+2019-05-31 11:24:37 - HikariPool-1 - Driver does not support get/set network timeout for connections. (This operation is not supported.)
+2019-05-31 11:24:37 - HikariPool-1 - Start completed.
+2019-05-31 11:24:38 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-31 11:24:38 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-31 11:24:38 - HHH000206: hibernate.properties not found
+2019-05-31 11:24:38 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-31 11:24:38 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-05-31 11:24:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-31 11:24:40 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:24:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-31 11:24:41 - LiveReload server is running on port 35729
+2019-05-31 11:24:41 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-31 11:24:41 - Starting ProtocolHandler ["http-nio-8097"]
+2019-05-31 11:24:42 - Tomcat started on port(s): 8097 (http) with context path ''
+2019-05-31 11:24:42 - Started ProjectApplication in 13.28 seconds (JVM running for 14.811)
+2019-05-31 11:24:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 11:24:53 - Initializing Servlet 'dispatcherServlet'
+2019-05-31 11:24:53 - Completed initialization in 18 ms
+2019-05-31 11:24:53 - HHH000397: Using ASTQueryTranslatorFactory
+2019-05-31 11:24:54 - com.sample.project.exceptions.ConflictException: User already exist
+2019-05-31 11:24:54 - com.sample.project.exceptions.ConflictException: User already exist
+	at com.sample.project.Controller.RestApiController.createUser(RestApiController.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-31 11:24:54 - Resolved [com.sample.project.exceptions.ConflictException: User already exist]
+2019-05-31 11:25:41 - com.sample.project.exceptions.ConflictException: User already exist
+2019-05-31 11:25:41 - com.sample.project.exceptions.ConflictException: User already exist
+	at com.sample.project.Controller.RestApiController.createUser(RestApiController.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-31 11:25:41 - Resolved [com.sample.project.exceptions.ConflictException: User already exist]
+2019-05-31 11:26:32 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
