@@ -3,6 +3,7 @@ package com.sample.project.Controller;
 
 
 import com.sample.project.Model.User;
+import com.sample.project.Service.ServiceClass;
 import com.sample.project.Service.UserService;
 import com.sample.project.Utils.CustomResponseCode;
 import com.sample.project.Utils.Response;
@@ -33,6 +34,8 @@ public class RestApiController {
 
     @Autowired
     UserService userService;
+    @Autowired
+    ServiceClass serviceClass;
 
     //---------------------- List All users -------------------------------
 
@@ -76,14 +79,12 @@ public class RestApiController {
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
     public User search(@RequestBody User  body ){
-
         if(body.getName()==null || body.getName().isEmpty()){
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION, "user does not exist");
         }
         if(body.getLastName()==null || body.getLastName().isEmpty()){
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION, "user does not exist");
         }
-
             String lastName= body.getLastName();
             String name = body.getName();
             return userService.findByLastNameAndName(lastName,name);
@@ -117,6 +118,19 @@ public class RestApiController {
     }
 
 
+    @PostMapping("/users/save")
+    @ResponseStatus(value = HttpStatus.CREATED)
+    public ResponseEntity<Response> saveUsers(@RequestBody List<User> users) {
+        HttpStatus httpCode;
+        Response resp = new Response();
+
+        serviceClass.saveUsers(users);
+        resp.setCode(CustomResponseCode.SUCCESS);
+        resp.setDescription("Successful");
+        resp.setData(users);
+        httpCode = HttpStatus.CREATED;
+        return new ResponseEntity<>(resp, httpCode);
+    }
 
     // ------------------- Update a User ------------------------------------------------
 

@@ -22,4 +22,6 @@ public interface UserService extends JpaRepository<User,Long> {
     User findByLastNameAndName(String lastName,String name);
 
     //List<User> findByLastNameAndName(String searchTerm);
+
+
 }

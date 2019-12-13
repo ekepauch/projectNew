@@ -19,7 +19,7 @@ public class Response {
     private String description;
     private List<Error> errors;
 
-    @JsonIgnore
+   // @JsonIgnore
     private Object data;
 
     public Response() {
