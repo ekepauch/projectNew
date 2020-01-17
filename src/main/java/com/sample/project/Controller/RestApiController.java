@@ -46,13 +46,13 @@ public class RestApiController {
 
 // ------------------------------------- FIND USER BY ID --------------------------------
     @RequestMapping(value = "/user/{id}", method = RequestMethod.GET)
-    public User getUser(@PathVariable("id") long id) {
+    public User getUser(@PathVariable("id") long id)
+    {
         HttpStatus httpCode;
-
         Response resp = new Response();
-
         User user = userService.findById(id);
-        if (user == null ) {
+        if (user == null )
+        {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION, "user does not exist");
         }
         return user;
@@ -60,9 +60,11 @@ public class RestApiController {
 
     // -----------------------------FIND USER BY USER NAME -----------------------------------------------
     @RequestMapping(value = "/findUser/{name}", method = RequestMethod.GET)
-    public User findByname(@PathVariable("name") String name){
+    public User findByname(@PathVariable("name") String name)
+    {
         User user = userService.findByName(name);
-        if (user == null ) {
+        if (user == null )
+        {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION, "user does not exist");
         }
         return user;
@@ -78,11 +80,14 @@ public class RestApiController {
 //    }
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
-    public User search(@RequestBody User  body ){
-        if(body.getName()==null || body.getName().isEmpty()){
+    public User search(@RequestBody User  body )
+    {
+        if(body.getName()==null || body.getName().isEmpty())
+        {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION, "user does not exist");
         }
-        if(body.getLastName()==null || body.getLastName().isEmpty()){
+        if(body.getLastName()==null || body.getLastName().isEmpty())
+        {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION, "user does not exist");
         }
             String lastName= body.getLastName();
@@ -96,22 +101,25 @@ public class RestApiController {
     // -------------------Create a User-------------------------------------------
 
     @RequestMapping(value = "/newuser", method = RequestMethod.POST)
+
     @ResponseStatus(value = HttpStatus.CREATED)
 
-    public ResponseEntity<Response> createUser(@RequestBody @Validated User user, HttpServletRequest request) {
+    public ResponseEntity<Response> createUser(@RequestBody @Validated User user, HttpServletRequest request)
+    {
         HttpStatus httpCode;
         Response resp = new Response();
-
         User userExist = userService.findByNameAndLastName(user.getName(),user.getLastName());
-
-        if (userExist != null) {
+        if (userExist != null)
+        {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION,"User already exist");
-
-        }else {
-
+        }else
+            {
             userService.save(user);
+
             resp.setCode(CustomResponseCode.SUCCESS);
+
             resp.setDescription("Successful");
+
             httpCode = HttpStatus.CREATED;
         }
         return new ResponseEntity<>(resp, httpCode);
@@ -120,7 +128,8 @@ public class RestApiController {
 
     @PostMapping("/users/save")
     @ResponseStatus(value = HttpStatus.CREATED)
-    public ResponseEntity<Response> saveUsers(@RequestBody List<User> users) {
+    public ResponseEntity<Response> saveUsers(@RequestBody List<User> users)
+    {
         HttpStatus httpCode;
         Response resp = new Response();
 
@@ -136,7 +145,8 @@ public class RestApiController {
 
     @RequestMapping(value = "/user", method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.CREATED)
-    public ResponseEntity<Response> updateUser(@RequestBody @Validated User user, HttpServletRequest request) {
+    public ResponseEntity<Response> updateUser(@RequestBody @Validated User user, HttpServletRequest request)
+    {
 
         HttpStatus httpCode;
         Response resp = new Response();
