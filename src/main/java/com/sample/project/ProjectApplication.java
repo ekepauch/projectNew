@@ -1,11 +1,18 @@
 package com.sample.project;
 
+import com.sample.project.Utils.Util;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -14,7 +21,7 @@ import java.util.Random;
 @SpringBootApplication
 public class ProjectApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NoSuchPaddingException, UnsupportedEncodingException, IllegalBlockSizeException, BadPaddingException, NoSuchAlgorithmException, InvalidKeyException {
 		SpringApplication.run(ProjectApplication.class, args);
 
 		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
@@ -50,7 +57,18 @@ public class ProjectApplication {
 //    byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(Charset.forName("US-ASCII")));
 //    String result=new String(encodedAuth);
 //    System.out.println(":::::: PASSWORD "+result);
+
+
+//		Util util = new Util();
+//		String pass ="paycms$%@";
+//		//String pass ="nibssmysqldatabase";
+//		String encypt = util.encryptData(pass);
+//		System.out.println(":::::: ENCRYPTION "+encypt);
 //
+//		String decrypt = util.decryptData(encypt);
+//		System.out.println(":::::: DECRYPTION "+decrypt);
+
+
 	}
 
 }

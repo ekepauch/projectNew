@@ -90,16 +90,16 @@
 			<version>2.3.4</version>
 		</dependency>
 
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>1.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>net.logstash.logback</groupId>
-			<artifactId>logstash-logback-encoder</artifactId>
-			<version>6.2</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>ch.qos.logback</groupId>-->
+			<!--<artifactId>logback-classic</artifactId>-->
+			<!--<version>1.2.3</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>net.logstash.logback</groupId>-->
+			<!--<artifactId>logstash-logback-encoder</artifactId>-->
+			<!--<version>6.2</version>-->
+		<!--</dependency>-->
 
 		<!--<dependency>-->
 			<!--<groupId>io.springfox</groupId>-->
@@ -113,7 +113,14 @@
 			<!--<version>2.6.1</version>-->
 		<!--</dependency>-->
 
+		<dependency>
+			<groupId>com.pgp</groupId>
+			<artifactId>library</artifactId>
+			<version>1.0</version>
+		</dependency>
 
+
+<!--OpenApi dependency-->
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-core</artifactId>
@@ -127,10 +134,10 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-sleuth</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-sleuth</artifactId>-->
+		<!--</dependency>-->
 
 
 		<dependency>
@@ -138,6 +145,7 @@
 			<artifactId>log4jdbc-spring-boot-starter</artifactId>
 			<version>1.0.2</version>
 		</dependency>
+
 
 	</dependencies>
 

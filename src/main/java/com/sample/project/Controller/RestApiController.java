@@ -104,8 +104,10 @@ public class RestApiController {
 
     @ResponseStatus(value = HttpStatus.CREATED)
 
-    public ResponseEntity<Response> createUser(@RequestBody @Validated User user, HttpServletRequest request)
+    public ResponseEntity<Response> createUser(@RequestBody @Validated  User user, HttpServletRequest request)
     {
+
+
         HttpStatus httpCode;
         Response resp = new Response();
         User userExist = userService.findByNameAndLastName(user.getName(),user.getLastName());
@@ -113,7 +115,8 @@ public class RestApiController {
         {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION,"User already exist");
         }else
-            {
+        {
+          //  String encryptedRequest =
             userService.save(user);
 
             resp.setCode(CustomResponseCode.SUCCESS);
