@@ -3,6 +3,7 @@ package com.sample.project.Service;
 import com.sample.project.Model.User;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -22,6 +23,8 @@ public interface UserService extends JpaRepository<User,Long> {
     User findByLastNameAndName(String lastName,String name);
 
     //List<User> findByLastNameAndName(String searchTerm);
+
+
 
 
 }

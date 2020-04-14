@@ -16,17 +16,29 @@ public class ServiceClass {
 
     @Transactional
 
-    public void saveUsers(List<User> users) {
-        int size = users.size();
-        int counter = 0;
-        List<User> temp = new ArrayList<>();
-        for (User user : users) {
-            temp.add(user);
-            if ((counter + 1) % 500 == 0 || (counter + 1) == size) {
-                userService.saveAll(temp);
-                temp.clear();
-            }
-            counter++;
-        }
+//    public void saveUsers(List<User> users) {
+//        int size = users.size();
+//        int counter = 0;
+//        List<User> temp = new ArrayList<>();
+//        for (User user : users) {
+//            temp.add(user);
+//            if ((counter + 1) % 500 == 0 || (counter + 1) == size) {
+//                userService.saveAll(temp);
+//                temp.clear();
+//            }
+//            counter++;
+//        }
+//    }
+
+
+    public List<User> saveUsers(List<User> users) {
+        List<User> user = new ArrayList<>();
+        
+        users.forEach(posReq->{
+            userService.save(posReq);
+            user.add(posReq);
+
+        });
+        return user;
     }
 }

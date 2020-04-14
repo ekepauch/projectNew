@@ -3,6 +3,7 @@ package com.sample.project;
 import com.sample.project.Utils.Util;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -17,16 +18,15 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Random;
-
+@EnableAutoConfiguration
 @SpringBootApplication
 public class ProjectApplication {
 
-	public static void main(String[] args) throws NoSuchPaddingException, UnsupportedEncodingException, IllegalBlockSizeException, BadPaddingException, NoSuchAlgorithmException, InvalidKeyException {
-		SpringApplication.run(ProjectApplication.class, args);
+	public static void main(String[] args){SpringApplication.run(ProjectApplication.class, args);
 
 		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
 		Calendar calobj = Calendar.getInstance();
-		System.out.println(df.format(calobj.getTime()));
+		System.out.println(":::::::::::::::: TODAY'S DATE AND TIME :::::: "+df.format(calobj.getTime()));
 
 //		Random r = new Random();
 //		char c = (char)(r.nextInt(26) + 'a');
@@ -39,16 +39,18 @@ public class ProjectApplication {
 //		Random r = new Random();
 //		char random_3_Char = (char) (97 + r.nextInt(26));
 
-
+//
 //		String SALTCHARS = "1234567890";
 //		StringBuilder salt = new StringBuilder();
 //		Random rnd = new Random();
-//		while (salt.length() < 24) { // length of the random string.
+//		while (salt.length() < 3) { // length of the random string.
 //			int index = (int) (rnd.nextFloat() * SALTCHARS.length());
 //			salt.append(SALTCHARS.charAt(index));
 //		}
 //		String saltStr = salt.toString();
-//		System.out.println(saltStr);
+//		String code = String.valueOf(001 + rnd.nextInt(999));
+//
+//		System.out.println(saltStr.concat("-").concat(code).concat("-"));
 
 
 

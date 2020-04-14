@@ -24,13 +24,15 @@
 
   </appender>
 
-  <logger name="com.xpresspayments.GTBank" level="info"
+  <logger name="com.test" level="info"
     additivity="false">
+
     <appender-ref ref="FILE-AUDIT"/>
   </logger>
 
   <root level="info">
     <appender-ref ref="FILE-AUDIT"/>
+
   </root>
 
 
