@@ -33,7 +33,7 @@ public class ServiceClass {
 
     public List<User> saveUsers(List<User> users) {
         List<User> user = new ArrayList<>();
-        
+
         users.forEach(posReq->{
             userService.save(posReq);
             user.add(posReq);
@@ -41,4 +41,8 @@ public class ServiceClass {
         });
         return user;
     }
+
+
+
+
 }

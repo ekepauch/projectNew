@@ -27,10 +27,9 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-
 public class RestApiController {
 
-    public static final Logger logger = LoggerFactory.getLogger(RestApiController.class);
+   // public static final Logger logger = LoggerFactory.getLogger(RestApiController.class);
 
     @Autowired
     UserService userService;
@@ -101,28 +100,20 @@ public class RestApiController {
     // -------------------Create a User-------------------------------------------
 
     @RequestMapping(value = "/newuser", method = RequestMethod.POST)
-
     @ResponseStatus(value = HttpStatus.CREATED)
-
-    public ResponseEntity<Response> createUser(@RequestBody @Validated  User user, HttpServletRequest request)
+    public ResponseEntity<Response> createUser(@RequestBody @Validated  User user)
     {
-
-
         HttpStatus httpCode;
         Response resp = new Response();
         User userExist = userService.findByNameAndLastName(user.getName(),user.getLastName());
         if (userExist != null)
         {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION,"User already exist");
-        }else
-        {
-          //  String encryptedRequest =
+        }else {
             userService.save(user);
-
             resp.setCode(CustomResponseCode.SUCCESS);
-
             resp.setDescription("Successful");
-
+            resp.setData(user);
             httpCode = HttpStatus.CREATED;
         }
         return new ResponseEntity<>(resp, httpCode);
@@ -135,7 +126,6 @@ public class RestApiController {
     {
         HttpStatus httpCode;
         Response resp = new Response();
-
         serviceClass.saveUsers(users);
         resp.setCode(CustomResponseCode.SUCCESS);
         resp.setDescription("Successful");
@@ -144,19 +134,19 @@ public class RestApiController {
         return new ResponseEntity<>(resp, httpCode);
     }
 
+
+
+
     // ------------------- Update a User ------------------------------------------------
 
     @RequestMapping(value = "/user", method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.CREATED)
     public ResponseEntity<Response> updateUser(@RequestBody @Validated User user, HttpServletRequest request)
     {
-
         HttpStatus httpCode;
         Response resp = new Response();
-
         if (user.getId()== null)
             throw new BadRequestException(CustomResponseCode.INVALID_REQUEST, "id cannot be empty");
-
         User userExist = userService.findByNameAndLastName(user.getName(),user.getLastName());
         if (userExist == null) {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION,"User user does not exist");
@@ -177,7 +167,6 @@ public class RestApiController {
     public ResponseEntity<Response> deleteUser(@PathVariable("id") long id) {
         HttpStatus httpCode;
         Response resp = new Response();
-
         User user = userService.findById(id);
         if (user == null) {
             throw new ConflictException(CustomResponseCode.CONFLICT_EXCEPTION, "user does not exist");
@@ -197,7 +186,6 @@ public class RestApiController {
     public ResponseEntity<Response> deleteAllUsers() {
         HttpStatus httpCode;
         Response resp = new Response();
-
         userService.deleteAll();
         resp.setCode(CustomResponseCode.SUCCESS);
         resp.setDescription("Delete Successful");
